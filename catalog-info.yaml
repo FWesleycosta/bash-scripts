@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bash-scripts
+  title: Bash Scripts
+  description: "Scripts em Shell para tarefas de infraestrutura na AWS, como redefinir senha de usuários no Cognito."
+  tags:
+    - bash
+    - shell
+    - aws
+    - cognito
+  annotations:
+    github.com/project-slug: FWesleycosta/bash-scripts
+spec:
+  type: library
+  lifecycle: production
+  owner: fwesleycosta
+  system: desenvolvimento
